@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .box {
+    background-color: #444;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.header .auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header .auth-buttons a {
+    color: white;
+    background-color: #ff4d4d;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header .auth-buttons .signout {
+    background-color: #4d94ff;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
